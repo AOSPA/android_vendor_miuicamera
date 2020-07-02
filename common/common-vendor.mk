@@ -16,7 +16,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/miuicamera/common
 
 PRODUCT_COPY_FILES += \
+    vendor/miuicamera/common/proprietary/etc/device_features/beryllium.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/beryllium.xml \
     vendor/miuicamera/common/proprietary/etc/device_features/chiron.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/chiron.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/dipper.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/dipper.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/polaris.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/polaris.xml \
     vendor/miuicamera/common/proprietary/etc/device_features/sagit.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/sagit.xml \
     vendor/miuicamera/common/proprietary/etc/permissions/com.android.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.camera.xml \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so \

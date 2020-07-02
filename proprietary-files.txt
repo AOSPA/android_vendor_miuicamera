@@ -9,5 +9,8 @@ lib64/libmorpho_panorama_gp.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_
 etc/permissions/com.android.camera.xml|fbc03150644d63f6cc1ed41278922dabbb9c7d2d
 
 # Device features
+etc/device_features/beryllium.xml|5da416312b38ea7ad68821990be11649ddbce780
 etc/device_features/chiron.xml|1aed824338c05e31650f2d33de63d2dadc8771f2
+etc/device_features/dipper.xml|2510319a48f74865a31027f71b0a9b5de47b26e8
+etc/device_features/polaris.xml|6f4014864493fad7f1adf504cdf16aeeaac6fea6
 etc/device_features/sagit.xml|dcc2db8f4b64bb3e27841ada5d484a812e2b31cf
