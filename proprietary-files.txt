@@ -10,4 +10,7 @@ etc/permissions/com.android.camera.xml|fbc03150644d63f6cc1ed41278922dabbb9c7d2d
 
 # Device features
 etc/device_features/chiron.xml|1aed824338c05e31650f2d33de63d2dadc8771f2
+etc/device_features/jasmine_sprout.xml|bb98c85bbc88f64e161e1195bd8ebe69a180f101 
+etc/device_features/lavender.xml|e1213f42aa7c2c6e94f9614d6db98583dfd6c06f 
 etc/device_features/sagit.xml|dcc2db8f4b64bb3e27841ada5d484a812e2b31cf
+etc/device_features/whyred.xml|caac4d2d9456ab9cd0d0361e2d3e45ad3bc70d98
