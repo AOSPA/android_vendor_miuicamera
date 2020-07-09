@@ -17,7 +17,11 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/miuicamera/common/proprietary/etc/device_features/chiron.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/chiron.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/jasmine_sprout.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/jasmine_sprout.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/jason.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/jason.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/lavender.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/lavender.xml \
     vendor/miuicamera/common/proprietary/etc/device_features/sagit.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/sagit.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/whyred.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/whyred.xml \
     vendor/miuicamera/common/proprietary/etc/permissions/com.android.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.camera.xml \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so \
