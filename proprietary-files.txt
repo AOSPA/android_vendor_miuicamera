@@ -1,13 +1,29 @@
-# MiuiCamera - from Mi A2 V11.0.10.0.QDIMIXM
-lib64/libCameraEffectJNI.so:priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so
-lib64/libmorpho_memory_allocator.so:priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so
-lib64/libmorpho_panorama.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so
-lib64/libmorpho_panorama_gp.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
--priv-app/MiuiCamera/MiuiCamera.apk
+# MiuiCamera - from Mi A3 V12.0.3.0.
+lib64/libCameraEffectJNI.so:priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so|fbe0ca2915847e5eb23405de832a5209251fb790
+lib64/libarc_layer_sgl.so:priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so|2d3ef57feaf1981e4aa9da4e6643c137e36dec40
+lib64/libarcsoft_wideselfie.so:priv-app/MiuiCamera/lib/arm64/libarcsoft_wideselfie.so|92267968757d692a0adfb9df5a933a6b04e063ff
+lib64/libcamera_arcsoft_beautyshot.so:priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_beautyshot.so|fd4aa29ffbaa0f2edcfeadd2826aa6009fd1ba16
+lib64/libcamera_arcsoft_handgesture.so:priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_handgesture.so|6212332a38c4ee0d924bab47b647d39186fcc166
+lib64/libcamera_beauty_mpbase.so:priv-app/MiuiCamera/lib/arm64/libcamera_beauty_mpbase.so|8b4133e220f01f5e4e411ce9fc779c00bbd31d54
+lib64/libcamera_handgesture_mpbase.so:priv-app/MiuiCamera/lib/arm64/libcamera_handgesture_mpbase.so|8b4133e220f01f5e4e411ce9fc779c00bbd31d54
+lib64/libcamera_wideselfie_mpbase.so:priv-app/MiuiCamera/lib/arm64/libcamera_wideselfie_mpbase.so|e6b51e2d501f434eea15ecdc275011d1498301ae
+lib64/libcom.xiaomi.camera.requestutil.so:priv-app/MiuiCamera/lib/arm64/libcom.xiaomi.cmaera.requestutil.so|3d8b2a732dafc8e0a873e77d9baaf32d84d40304
+lib64/libhandengine.arcsoft.so:priv-app/MiuiCamera/lib/arm64/libhandengine.arcsoft.so|b3f8cb1d389f00be77141bc49cc4638f299eadd4
+lib64/libjni_arcsoft_beautyshot.so:priv-app/MiuiCamera/lib/arm64/libjni_arcsoft_beautyshot.so|bff01bf5eee835a7aeed1234daa139ff925516b4
+lib64/libjni_jpegutil_xiaomi.so:priv-app/MiuiCamera/lib/arm64/libjni_jpequtil_xiaomi.so|3fa76835c3fc16e20b8bb07c2824f11605ed9f8a
+lib64/libjni_wideselfie.so:priv-app/MiuiCamera/lib/arm64/libjni_wideselfie.so|e0f1045eda0eb317aae5399ed6136a6818900212
+lib64/libmorpho_memory_allocator.so:priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so|4ee7cf7490a1643cb8e34f681ca2a0f851758190
+lib64/libmorpho_panorama_gp3.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp3.so|709cdad6cc6f3bf428d86b06bf8cad8bf6f065da
+lib64/libmorpho_sensor_fusion.so:priv-app/MiuiCamera/lib/arm64/libmorpho_sensor_fusion.so|300df9d5260025a6189cba5869529f16e413ed63
+vendor/camera/fonts/MFYueYuan-Regular.ttf|43a94e30a801224f0baa0194bee3122211fbbe81
+vendor/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf|bf33ac149912ee1964487a768a2eb5f21cf38c53
+vendor/camera/fonts/MIUI_Time.ttf|ad1c4cb5fdc53731c4b263076d8a0a183fbe263d
+vendor/etc/camera/beauty_ui9_intelligent_params.config|3b9e28d486c65f5e23fd2a356dbbfd407e2fdfee
 
 # Permission
-etc/permissions/com.android.camera.xml|fbc03150644d63f6cc1ed41278922dabbb9c7d2d
+-etc/permissions/privapp-permissions-miuicamera.xml|fbc03150644d63f6cc1ed41278922dabbb9c7d2d
 
 # Device features
 etc/device_features/chiron.xml|1aed824338c05e31650f2d33de63d2dadc8771f2
+etc/device_features/laurel_sprout.xml|b80637b544c59eb69420fd86b40b19eeef2669a7
 etc/device_features/sagit.xml|dcc2db8f4b64bb3e27841ada5d484a812e2b31cf
