@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Paranoid Android
+# Copyright (C) 2021 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,12 +17,29 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/miuicamera/common/proprietary/etc/device_features/chiron.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/chiron.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/laurel_sprout.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/laurel_sprout.xml \
     vendor/miuicamera/common/proprietary/etc/device_features/sagit.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/sagit.xml \
-    vendor/miuicamera/common/proprietary/etc/permissions/com.android.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.camera.xml \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libarcsoft_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libarcsoft_wideselfie.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_beautyshot.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_handgesture.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libcamera_beauty_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_beauty_mpbase.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_handgesture_mpbase.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libcamera_wideselfie_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_wideselfie_mpbase.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libcom.xiaomi.cmaera.requestutil.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcom.xiaomi.cmaera.requestutil.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libhandengine.arcsoft.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libhandengine.arcsoft.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libjni_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libjni_arcsoft_beautyshot.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libjni_jpequtil_xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libjni_jpequtil_xiaomi.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libjni_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libjni_wideselfie.so \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so \
-    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so \
-    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp3.so \
+    vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_sensor_fusion.so \
+    vendor/miuicamera/common/proprietary/vendor/camera/fonts/MFYueYuan-Regular.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MFYueYuan-Regular.ttf \
+    vendor/miuicamera/common/proprietary/vendor/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf \
+    vendor/miuicamera/common/proprietary/vendor/camera/fonts/MIUI_Time.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MIUI_Time.ttf \
+    vendor/miuicamera/common/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config
 
 PRODUCT_PACKAGES += \
-    MiuiCamera
+    MiuiCamera \
+    privapp-permissions-miuicamera.xml
