@@ -16,6 +16,24 @@
       "message": "this should be committed in quartz-a3 branch right?",
       "revId": "33bb722daaa25c25de787aba7cac9e8aa289f9f9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5cca396_96d910da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-01-12T13:27:16Z",
+      "side": 1,
+      "message": "should be ruby, this is just a draft",
+      "parentUuid": "86e2a84f_333c132e",
+      "revId": "33bb722daaa25c25de787aba7cac9e8aa289f9f9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
