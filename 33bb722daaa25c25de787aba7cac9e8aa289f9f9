@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86e2a84f_333c132e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000036
+      },
+      "writtenOn": "2021-01-12T12:43:33Z",
+      "side": 1,
+      "message": "this should be committed in quartz-a3 branch right?",
+      "revId": "33bb722daaa25c25de787aba7cac9e8aa289f9f9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
